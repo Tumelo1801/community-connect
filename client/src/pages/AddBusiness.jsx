@@ -40,7 +40,7 @@ function AddBusiness() {
     setError('');
 
     try {
-      await axios.post('http://localhost:5000/api/businesses', formData);
+      await axios.post('https://community-connect-backend-w11v.onrender.com/api/businesses', formData);
       setSuccess(true);
       setTimeout(() => {
         navigate('/businesses');

@@ -24,7 +24,7 @@ function Businesses() {
 
     const load = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/businesses', {
+        const response = await axios.get('https://community-connect-backend-w11v.onrender.com/api/businesses', {
           signal: controller.signal,
         });
         if (!isMounted) return;

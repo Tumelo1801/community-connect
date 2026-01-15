@@ -22,11 +22,11 @@ const navigate = useNavigate();
 useEffect(() => {
 const fetchBusinesses = async () => {
   try {
-    const response = await axios.get('http://localhost:5000/api/businesses');
+    const response = await axios.get('https://community-connect-backend-w11v.onrender.com/api/businesses');
     let businessData = response.data;
     
     // console.log('User Location:', userLocation);
-    console.log('Raw business data:', businessData[0]);
+    // console.log('Raw business data:', businessData[0]);
     
     // Calculate distances if user location is available
     if (userLocation) {
@@ -39,7 +39,7 @@ const fetchBusinesses = async () => {
             business.latitude,
             business.longitude
           );
-          console.log(`Distance to ${business.name}:`, distance, 'km');
+          // console.log(`Distance to ${business.name}:`, distance, 'km');
           return { ...business, distance };
         }
         return business;

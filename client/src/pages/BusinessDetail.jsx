@@ -13,7 +13,7 @@ function BusinessDetail() {
 
     const fetchBusiness = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/api/businesses/${id}`);
+        const response = await axios.get(`https://community-connect-backend-w11v.onrender.com/api/businesses/${id}`);
         if (isMounted) {
           setBusiness(response.data);
           setLoading(false);
