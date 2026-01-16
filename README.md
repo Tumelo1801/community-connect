@@ -154,3 +154,28 @@ Feel free to reach out if you have questions or suggestions:
 - Email: tumiitumelo32@gmail.com
 - LinkedIn: www.linkedin.com/in/tumelo-seleka
 - GitHub: @Tumelo1801
+
+## Live Demo
+
+**Frontend:** https://community-connect-bice-three.vercel.app  
+**Backend API:** https://community-connect-backend-w11v.onrender.com
+
+## Screenshots
+
+### Home Page - Hero & Categories
+![Home Page](screenshots/Home%20page%20and%20category%20section.png)
+
+### Featured Businesses
+![Featured Section](screenshots/Home%20page-Featured%20Section.png)
+
+### Interactive Map & Benefits
+![Map and Benefits](screenshots/Home%20page%20Map%20%20and%20Benefits.png)
+
+### Business Listings
+![Business Listings](screenshots/Business%20Listing.png)
+
+### Business Detail Page
+![Business Details](screenshots/Business%20Details.png)
+
+### Add Business Form
+![Add Business](screenshots/Add%20Business.png)
